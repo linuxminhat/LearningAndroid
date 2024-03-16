@@ -1,0 +1,17 @@
+package com.example.firstapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.firstlayout);
+        int icLauncherBackground = R.drawable.ic_launcher_background;
+        int activityMain = R.layout.activity_main;
+
+    }
+}
